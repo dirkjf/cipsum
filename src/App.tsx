@@ -32,7 +32,7 @@ function App() {
   useEffect(() => {
     function handleKeyDown(e: KeyboardEvent) {
       const key = parseInt(e.key);
-      if (key < 4) {
+      if (key > 0 && key < 4) {
         copy(key - 1);
         toast("Copied!")
 
