@@ -10,19 +10,17 @@
   "main": "dist/cipsum.js",
   "types": "dist/index.d.ts",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dev": "vite",
     "build:lib": "tsc && vite build --config vite.config.lib.js",
     "build:app": "tsc && vite build --config vite.config.app.js",
     "preview": "vite preview"
   },
-  "dependencies": {
+  "devDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-toastify": "^9.0.8"
-  },
-  "devDependencies": {
+    "react-toastify": "^9.0.8",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
