@@ -5,12 +5,12 @@
   "repository": "dirkjf/cipsum",
   "type": "module",
   "files": [
-    "dist"
+    "dist/"
   ],
   "main": "dist/cipsum.js",
   "types": "dist/index.d.ts",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "dev": "vite",
     "build:lib": "tsc && vite build --config vite.config.lib.js",
