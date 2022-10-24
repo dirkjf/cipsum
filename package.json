@@ -2,13 +2,20 @@
   "name": "@dirkjf/cipsum",
   "author": "DirkJF",
   "license": "MIT",
+  "description": "A tiny random (corporate) text generator.",
+  "keywords": ["Corprate Ipsum", "Lorem Ipsum", "random text generator"],
+  "homepage": "https://github.com/dirkjf/cipsum/",
   "files": [
-    "dist/"
+    "dist"
   ],
   "main": "./dist/cipsum.js",
   "types": "./dist/cipsum.d.ts",
   "private": false,
   "version": "0.0.6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirkjf/cipsum.git"
+  },
   "scripts": {
     "dev": "vite",
     "build:lib": "tsc && vite build --config vite.config.lib.js",

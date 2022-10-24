@@ -1,9 +1,9 @@
 # Corporate Ipsum (cipsum)
 
-> Random corporate text generator. See https://dirkjf.github.io/cipsum/ for a demo.
+A tiny library that generates random corporate text. See https://dirkjf.github.io/cipsum/ for an implementation.
 
 ## Installation
-`yarn add -D @dirkjf/cipsum`
+`yarn add -D @dirkjf/cipsum` or `npm install @dirkjf/cipsum ---save-dev`
 
 ## Usage
 
