@@ -1,5 +1,13 @@
 node_modules
 out
+src
+index.html
+vite.config.app.js
+vite.config.lib.js
+tsconfig.json
+tsconfig.node.json
+package-lock.json
+yarn.lock
 
 # Editor directories and files
 .vscode/*
