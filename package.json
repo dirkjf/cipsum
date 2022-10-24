@@ -1,0 +1,35 @@
+{
+  "name": "@dirkjf/cipsum",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/cimpsum.js"
+    }
+  },
+  "private": false,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build:lib": "tsc && vite build --config vite.config.lib.js",
+    "build:app": "tsc && vite build --config vite.config.app.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-toastify": "^9.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "sass": "^1.55.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.8",
+    "vite-plugin-dts": "^1.6.6"
+  }
+}

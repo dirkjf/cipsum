@@ -1,0 +1,64 @@
+.app {
+  max-width: 960px;
+  margin: 60px auto;
+}
+
+* {
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: .6em;
+}
+
+em{
+  color: #5d5d5d;
+}
+
+.row {
+  padding: 2rem;
+  margin-top: 1em;
+  display: flex;
+  background: #444;
+  justify-content: space-between;
+  gap: 16px;
+
+  p + p {
+    margin-top: 1em;
+  }
+}
+
+.text {
+  flex-grow: 1;
+}
+
+.button {
+  width: 8em;
+  flex-shrink: 0;
+  height: 3em;
+  border: 1px solid #323842;
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 4px;
+}
+
+.number {
+  font-size: 14px;
+  //float: left;
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3em;
+  height: 3em;
+  margin: 0 1em 1em 0;
+  //line-height: 1;
+  border-radius: 50%;
+  //background: rebeccapurple;
+  border: 2px dotted #5d5d5d;
+  line-height: 3em;
+
+}
