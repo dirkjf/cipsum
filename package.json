@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "A tiny library for random text generating.",
   "keywords": ["Corporate Ipsum", "Lorem Ipsum", "random text generator"],
-  "homepage": "https://github.com/dirkjf/cipsum/",
+  "homepage": "https://github.com/dirkjf/cipsum#readme",
   "files": [
     "dist"
   ],
