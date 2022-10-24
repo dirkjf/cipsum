@@ -7,9 +7,9 @@ export default defineConfig({
     outDir: 'dist',
     lib: {
       entry: resolve(__dirname, 'src/cipsum.ts'),
-      name: 'index',
+      name: 'cipsum',
       formats: ['es'],
-      fileName: 'index'
+      fileName: 'cipsum'
     },
   },
   plugins: [dts()]
