@@ -2,8 +2,8 @@
   "name": "@dirkjf/cipsum",
   "author": "DirkJF",
   "license": "MIT",
-  "description": "A tiny random (corporate) text generator.",
-  "keywords": ["Corprate Ipsum", "Lorem Ipsum", "random text generator"],
+  "description": "A tiny library for random text generating.",
+  "keywords": ["Corporate Ipsum", "Lorem Ipsum", "random text generator"],
   "homepage": "https://github.com/dirkjf/cipsum/",
   "files": [
     "dist"
