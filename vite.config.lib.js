@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/cipsum.ts'),
       name: 'cipsum',
-      formats: ['es'],
+      formats: ['cjs'],
       fileName: 'cipsum'
     },
   },
